@@ -86,6 +86,15 @@ flutter:
         - asset: fonts/ChironGoRoundTC-Medium.ttf
         - asset: fonts/ChironGoRoundTC-Regular.ttf
         - asset: fonts/ChironGoRoundTC-SemiBold.ttf
+    - family : IbarraRealNova
+      fonts:
+        - asset: fonts/IbarraRealNova-Bold.ttf
+        - asset: fonts/IbarraRealNova-BoldItalic.ttf
+        - asset: fonts/IbarraRealNova-Italic.ttf
+        - asset: fonts/IbarraRealNova-MediumItalic.ttf
+        - asset: fonts/IbarraRealNova-Medium.ttf
+        - asset: fonts/IbarraRealNova-Regular.ttf
+        - asset: fonts/IbarraRealNova-SemiBold.ttf
     # - family: Trajan Pro
     #   fonts:
     #     - asset: fonts/TrajanPro.ttf
