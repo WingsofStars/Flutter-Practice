@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/models/daily_task_model.dart';
+import 'package:flutter_application_1/models/task_model.dart';
+import 'package:flutter_application_1/widgets/daily_checklist_card.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '../utils/colors.dart';
 
@@ -27,7 +30,7 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: ListView.builder(
-        itemCount: 1,
+        itemCount: 2,
         itemBuilder: (context, index) {
           if (index == 0) {
           return Container(
@@ -46,6 +49,9 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ); 
+          }
+          else{
+            return ChecklistWidget(listId: "Daily Tasks",);
           }
         },
         
